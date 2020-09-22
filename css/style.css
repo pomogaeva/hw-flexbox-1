@@ -1,0 +1,86 @@
+
+/*Miso fonts*/
+@font-face {
+  font-family: "Miso";
+  src: url("../fonts/miso.otf") format(opentype);
+}
+
+@font-face {
+  font-family: "Miso Bold";
+  src: url("../fonts/miso-bold.otf") format(opentype);
+}
+
+*, 
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+/*Reset base*/
+html, body, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  background-color: #fdde7e;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 60px 15px;
+  height: 100%;
+  align-items: center;
+}
+
+.card {
+  padding: 30px 0;
+  margin: 10px;
+  width: 33%;
+  background-color: #fff;
+  text-align: center;
+}
+
+/* center cup */
+.gold {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.card-price {
+  font-family: "Miso Bold", sans-serif;
+  font-size: 70px;
+  color: #02995b;
+}
+
+.card-image {
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-image-cup {
+  position: relative;
+}
+
+.bean {
+  position: absolute;
+  top: 15px;
+  right: 55px;
+}
+
+.card-name {
+  margin: 15px;
+  font-family: "Miso", sans-serif;
+  font-size: 56px;
+  font-weight: 400;
+  font-stretch: extra-condensed;
+}
+
+.card-description {
+  font-size: 20px;
+}
