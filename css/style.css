@@ -2,12 +2,12 @@
 /*Miso fonts*/
 @font-face {
   font-family: "Miso";
-  src: url("../fonts/miso.otf") format(opentype);
+  src: url("../fonts/miso.otf") format('opentype');
 }
 
 @font-face {
   font-family: "Miso Bold";
-  src: url("../fonts/miso-bold.otf") format(opentype);
+  src: url("../fonts/miso-bold.otf") format('opentype');
 }
 
 *, 
